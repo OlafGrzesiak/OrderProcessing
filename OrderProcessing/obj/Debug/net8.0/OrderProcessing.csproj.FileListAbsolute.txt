@@ -1,0 +1,15 @@
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.exe
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.deps.json
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.runtimeconfig.json
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.dll
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\bin\Debug\net8.0\OrderProcessing.pdb
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfo.cs
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.sourcelink.json
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.dll
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\refint\OrderProcessing.dll
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.pdb
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\OrderProcessing.genruntimeconfig.cache
+C:\Users\User\RiderProjects\OrderProcessing\OrderProcessing\obj\Debug\net8.0\ref\OrderProcessing.dll
