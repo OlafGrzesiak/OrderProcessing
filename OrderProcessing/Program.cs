@@ -24,8 +24,8 @@ class Program
                 case "1":
                     Console.Write("Enter the product name: ");
                     string productName = Console.ReadLine();
-                    
-                    Console.Write("Enter quantity: ")
+
+                    Console.Write("Enter quantity: ");
 
                     if (int.TryParse(Console.ReadLine(), out int quantity))
                     {
@@ -55,8 +55,11 @@ class Program
 
                     break;
                 
-                case "0":
-                    Console.WriteLine("Unknown option. Try again. ");
+                case "4":
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Unknown option. try again");
                     break;
             }
             
@@ -76,6 +79,53 @@ class OrderProcessor
 
     public void PlaceOrder(string productName, int quantity)
     {
-        
+        Order order = new Order(productName, quantity);
+        orders.Add(order);
+        Console.WriteLine("Order added: " + order);
+    }
+
+    public void DisplayOrders()
+    {
+        for (int i = 0; i < orders.Count; i++)
+        {
+            Console.WriteLine($"{i + 1}. {orders[i]}");
+        }
+    }
+    public void ProcessOrder(int orderNumber)
+    {
+        if (orderNumber >= 1 && orderNumber <= orders.Count)
+        {
+            orders[orderNumber - 1].Process();
+            Console.WriteLine("Order processed.");
+        }
+        else
+        {
+            Console.WriteLine("Invalid order number.");
+        }
+    }
+
+    class Order
+    {
+        public string ProductName { get; }
+        public int Quantity { get; }
+        public bool IsProcessed { get; private set; }
+
+
+        public Order(string productName, int quantity)
+        {
+            ProductName = productName;
+            Quantity = quantity;
+            IsProcessed = false;
+        }
+
+        public void Process()
+        {
+            IsProcessed = true;
+        }
+
+        public override string ToString()
+        {
+            return $"{Quantity} x {ProductName} {(IsProcessed ? "[Zrealizowane]" : "")}";
+        }
     }
 }
